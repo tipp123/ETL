@@ -32,4 +32,4 @@
 | TEMP  | NUMERIC       | 
 | WD10  | INT           | 
 | WS10  | NUMERIC       | 
-* Update created SQL scripts to be suitable for MySQL (use 'CreateTable.sql' and 'InsertInto.sql')
+* Update created SQL scripts to be suitable for MySQL (use `CreateTable.sql` and `InsertInto.sql`)
