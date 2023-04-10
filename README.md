@@ -36,7 +36,10 @@
 | WS10  | NUMERIC       | 
 
 * Update created SQL scripts to be suitable for MySQL (use `CreateTable.sql` and `InsertInto.sql`)
-* Open MySQL database. Create table AIRDATA (use `CreateTable.sql`)
+* Open MySQL. Create new database (use `CreateDatabase.sql`) 
+* Create table AIRDATA (use `CreateTable.sql`)
 * Insert data into airdata table (use `InsertInto.sql`)
-* Create view for daily averages (use `average_day.sql`)
-* Create view for monthly averages (use `average_month.sql`)
+* Create view for daily averages (use `CreateViewAvgDay.sql`)
+* Create view for monthly averages (use `CreateViewAvgMonth.sql`)
+* Create view for monthly averages with fictional date (use `CreateViewAvgMonthDate.sql`)
+* As a result should get data as visible in MySQL exported .csv files (`AverageDayNumbers.csv` and `AverageMonthNumbers.csv`) 
