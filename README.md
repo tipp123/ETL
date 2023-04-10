@@ -18,5 +18,18 @@
 
 
 * Using python script extact data from [http://airviro.klab.ee/] and create file air_2022.csv (use `fetch_air.ipynb`).
-* Using Openrefine transform columns into correct format (use `data_tranform_steps_air.json`)
-* Use Openrefine export to SQL.
+* Using Openrefine transform columns into correct format (use `history.json`)
+* Use Openrefine export to SQL. 
+| Field  | SQL type|
+| ----- | ------------- | 
+| Date  | TIMESTAMP     | 
+| SO2   | NUMERIC       | 
+| NO2   | NUMERIC       | 
+| CO    | NUMERIC       | 
+| O3    | NUMERIC       | 
+| PM10  | NUMERIC       |
+| PM2.5 | NUMERIC       | 
+| TEMP  | NUMERIC       | 
+| WD10  | INT           | 
+| WS10  | NUMERIC       | 
+* Update created SQL scripts to be suitable for MySQL (use 'CreateTable.sql' and 'InsertInto.sql')
