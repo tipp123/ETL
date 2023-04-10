@@ -128,5 +128,11 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column WS10 using expression grel:value.replace(',', '.').toNumber()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "﻿Kuupäev",
+    "newColumnName": "Date",
+    "description": "Rename column ﻿Kuupäev to Date"
   }
 ]
