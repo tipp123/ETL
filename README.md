@@ -20,6 +20,8 @@
 * Using python script extact data from [http://airviro.klab.ee/] and create file air_2022.csv (use `fetch_air.ipynb`).
 * Using Openrefine transform columns into correct format (use `history.json`)
 * Use Openrefine export to SQL. 
+
+
 | Field  | SQL type|
 | ----- | ------------- | 
 | Date  | TIMESTAMP     | 
@@ -32,4 +34,9 @@
 | TEMP  | NUMERIC       | 
 | WD10  | INT           | 
 | WS10  | NUMERIC       | 
+
 * Update created SQL scripts to be suitable for MySQL (use `CreateTable.sql` and `InsertInto.sql`)
+* Open MySQL database. Create table AIRDATA (use `CreateTable.sql`)
+* Insert data into airdata table (use `InsertInto.sql`)
+* Create view for daily averages (use `average_day.sql`)
+* Create view for monthly averages (use `average_month.sql`)
