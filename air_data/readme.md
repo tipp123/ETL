@@ -1,3 +1,9 @@
+### Data
+
+###### Metadata about air quality:
+
+[Eesti välisõhu kvaliteet](http://airviro.klab.ee/)
+
 | Attr  | example value | unit    | Description                 |
 | ----- | ------------- | ------- | --------------------------- |
 | SO2   | 0,23          | µg/m³ | Vääveldioksiid            |
@@ -9,3 +15,8 @@
 | TEMP  | 9,72          | C       | Temperatuur                 |
 | WD10  | 204,40        | deg     | Tuule suund 10 m kõrgusel  |
 | WS10  | 1,56          | m/s     | Tuule kiirus 10 m kõrgusel |
+
+
+* Using python script extact data from [http://airviro.klab.ee/]() (`fetch_air.ipynb`).
+* Using Openrefine transform columns into correct format (use `data_tranform_steps_air.json`)
+* Use Openrefine export to SQL.
